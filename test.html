@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
+<meta name="HandheldFriendly" content="true">
+<meta name="format-detection" content="telephone=no">
+<title>샘플 UI</title>
+<script src="jquery-1.11.3.min.js"></script>
+<link rel="stylesheet" href="sample-uiset.css">
+<link rel="stylesheet" href="all.min.css">
+</head>
+<body>
+
+
+<div class="ns-wrap">
+	<div class="ns-inner">
+		<div class="ns-header">
+			<div class="row">
+				<div class="u6 mo-u12">
+					<h1 class="fz-tt cp">최상위 타이틀</h1>
+					<h2 class="fz-t cp">타이틀</h2>
+					<h3 class="fz-bb cp">보조타이틀</h3>
+					<p class="fz-b cp">큰 글자</p>
+					<p class="fz-n cp">기본사이즈 글자</p>
+					<p class="fz-s cp">작은글자</p>
+					<p class="fz-ss cp">아주작은글자</p>
+				</div>
+				<div class="u6 mo-u12">
+					<h3 class="tx01 cp">글자색 01</h3>
+					<h3 class="tx02 cp">글자색 02</h3>
+					<h3 class="tx03 cp">글자색 03</h3>
+					<h3 class="tx04 cp">글자색 04</h3>
+					<h3 class="tx05 cp">글자색 05</h3>
+					<h3 class="tx06 cp">글자색 06</h3>
+					<h3 class="tx07 cp">글자색 07</h3>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="ns-tab cp">
+			<ul class="tabsize-2">
+				<li class="active"><a href="#none">탭메뉴1</a></li>
+				<li><a href="#none">탭메뉴2</a></li>
+			</ul>
+		</div>
+		<div class="ns-tab cp">
+			<ul class="tabsize-3">
+				<li class="active"><a href="#none">탭메뉴1</a></li>
+				<li><a href="#none">탭메뉴2</a></li>
+				<li><a href="#none">탭메뉴3</a></li>
+			</ul>
+		</div>
+		<div class="ns-tab cp">
+			<ul class="tabsize-4 m-tabsize-2">
+				<li class="active"><a href="#none">탭메뉴1</a></li>
+				<li><a href="#none">탭메뉴2</a></li>
+				<li><a href="#none">탭메뉴3</a></li>
+				<li><a href="#none">탭메뉴4</a></li>
+			</ul>
+		</div>
+		<div class="ns-tab cp">
+			<ul class="tabsize-5 m-tabsize-1">
+				<li class="active"><a href="#none">탭메뉴1</a></li>
+				<li><a href="#none">탭메뉴2</a></li>
+				<li><a href="#none">탭메뉴3</a></li>
+				<li><a href="#none">탭메뉴4</a></li>
+				<li><a href="#none">탭메뉴5</a></li>
+			</ul>
+		</div>
+
+		<div class="tb-wrap">
+			<table class="w">
+				<tr>
+					<th>제목</th>
+					<td>내용입력</td>
+				</tr>	
+				<tr>
+					<th>제목</th>
+					<td><input type="text" name="" class="full"></td>
+				</tr>
+				<tr>
+					<th>제목</th>
+					<td><input type="text" name="" class="half" placeholder="아이디"><input type="password" name="" class="half" placeholder="비밀번호"></td>
+				</tr>
+				<tr>
+					<th>정보</th>
+					<td>
+						<input type="text" name="" class="half" placeholder=""><span class="desc">- 설명을사용</span>
+					</td>
+				</tr>
+				<tr>
+					<th>정보</th>
+					<td>
+						<input type="text" name="" placeholder="" maxlength="1" class="is-ss">
+						<input type="text" name="" placeholder="" maxlength="4" class="is-s">
+						<input type="text" name="" placeholder="" maxlength="12" class="is-n">
+						<input type="text" name="" placeholder="" maxlength="20" class="is-b">
+						<input type="text" name="" placeholder="" maxlength="50" class="is-bb">
+					</td>
+				</tr>
+				<tr>
+					<th>정보</th>
+					<td>
+						<ul class="cb-list">
+							<li><input type="checkbox" name="" id="for01"><label for="for01">체크박스사용</label></li>
+							<li><input type="checkbox" name="" id="for02"><label for="for02">체크박스사용</label></li>
+							<li><input type="checkbox" name="" id="for03"><label for="for03">체크박스사용</label></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th>정보</th>
+					<td>
+						<ul class="cb-list">
+							<li><input type="radio" name="" id="for11"><label for="for11">라디오사용</label></li>
+							<li><input type="radio" name="" id="for12"><label for="for12">라디오사용</label></li>
+							<li><input type="radio" name="" id="for13"><label for="for13">라디오사용</label></li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th rowspan="3">혼합 사용<strong>*</strong></th>
+					<td>
+						<input type="text" name="" placeholder="" maxlength="1" class="is-ss">개
+						<select><option>2000</option></select>년
+						<input type="text" name="" placeholder="" maxlength="2" class="is-ss">월
+						<input type="text" name="" placeholder="" maxlength="2" class="is-ss">일
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="" placeholder="핸드폰번호" maxlength="12" class="is-n">
+						<span class="desc"><input type="radio" name="" id="for31"><label for="for31">라디오사용</label></span>
+						<span class="desc"><input type="radio" name="" id="for32"><label for="for32">라디오사용</label></span>
+						<br><input type="text" name="" placeholder="배송메세지" maxlength="20" class="is-b">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="text" name="" placeholder="주소" maxlength="50" class="is-bb">
+						<button type="button" class="ns-btn ty07 s">검색</button>
+						<span class="desc"><input type="checkbox" name="" id="for21"><label for="for21">체크박스사용</label></span>
+					</td>
+				</tr>
+				<tr>
+					<th>카드 번호<strong>*</strong></th>
+					<td><input type="tel" name="" class="is-s" maxlength="4">- <input type="tel" name="" class="is-s" maxlength="4">- <input type="tel" name="" class="is-s" maxlength="4">- <input type="tel" name="" class="is-s" maxlength="4"></td>
+				</tr>
+				<tr>
+					<th>긴글입력</th>
+					<td>
+						<textarea></textarea>
+					</td>
+				</tr>
+				<tr>
+					<th>파일업로드</th>
+					<td>
+						<input type="file" name="">
+						<span class="desc"><input type="checkbox" name="" id="for41"><label for="for41">원본파일삭제</label></span>
+					</td>
+				</tr>
+				<tr>
+					<th>썸네일</th>
+					<td>
+						<span class="thumig b"><img src="sample.jpg" alt=""></span>
+						<span class="thumig"><img src="sample.jpg" alt=""></span>
+						<span class="thumig s"><img src="sample.jpg" alt=""></span>
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<h3 class="fz-bb">복사용 기본테이블</h3>
+		<div class="tb-wrap cp">
+			<table class="w">
+				<tr>
+					<th>제목</th>
+					<td>내용</td>
+				</tr>
+				<tr>
+					<th>필수<strong>*</strong></th>
+					<td>내용</td>
+				</tr>
+			</table>
+		</div>
+
+		<h3 class="fz-bb">복사용 목록테이블</h3>
+		<div class="tb-wrap mo-fx cp">
+			<table>
+				<tr>
+					<th>제목</th><th>제목</th><th>제목</th><th>제목</th><th>제목</th><th>제목</th>
+				</tr>
+				<tr>
+					<td>내용</td><td>내용</td><td>내용</td><td>내용</td><td>내용</td><td>내용</td>
+				</tr>
+			</table>
+		</div>
+		<h3 class="fz-bb">페이징 (모바일때문에 5페이지까지만 사용)</h3>
+		<div class="ns-pager cp">
+			<a href="#"><i class="fas fa-angle-double-left"></i></a>
+			<a href="#"><i class="fas fa-angle-left"></i></a>
+			<a href="#">1</a>
+			<a href="#">2</a>
+			<b>3</b>
+			<a href="#">4</a>
+			<a href="#">5</a>
+			<a href="#"><i class="fas fa-angle-right"></i></a>
+			<a href="#"><i class="fas fa-angle-double-right"></i></a>
+		</div>
+
+		<h3 class="fz-bb mt50">기본버튼</h3>
+		<div class="mb30">
+			<a href="#none" class="ns-btn ty01 cp">버튼 TYPE 1</a>
+			<a href="#none" class="ns-btn ty02 cp">버튼 TYPE 2</a>
+			<a href="#none" class="ns-btn ty03 cp">버튼 TYPE 3</a>
+			<a href="#none" class="ns-btn ty04 cp">버튼 TYPE 4</a>
+			<a href="#none" class="ns-btn ty05 cp">버튼 TYPE 5</a>
+			<a href="#none" class="ns-btn ty06 cp">버튼 TYPE 6</a>
+			<a href="#none" class="ns-btn ty07 cp">버튼 TYPE 7</a>
+			<a href="#none" class="ns-btn ty08 cp">버튼 TYPE 8</a>
+			<a href="#none" class="ns-btn ty09 cp">버튼 TYPE 9</a>
+		</div>
+		<h3 class="fz-bb">작은버튼 (input옆에 사용하는버튼)</h3>
+		<div class="mb30">
+			<a href="#none" class="ns-btn ty01 s cp">버튼 TYPE 1</a>
+			<a href="#none" class="ns-btn ty02 s cp">버튼 TYPE 2</a>
+			<a href="#none" class="ns-btn ty03 s cp">버튼 TYPE 3</a>
+			<a href="#none" class="ns-btn ty04 s cp">버튼 TYPE 4</a>
+			<a href="#none" class="ns-btn ty05 s cp">버튼 TYPE 5</a>
+			<a href="#none" class="ns-btn ty06 s cp">버튼 TYPE 6</a>
+			<a href="#none" class="ns-btn ty07 s cp">버튼 TYPE 7</a>
+			<a href="#none" class="ns-btn ty08 s cp">버튼 TYPE 8</a>
+			<a href="#none" class="ns-btn ty09 s cp">버튼 TYPE 9</a>
+		</div>
+		<h3 class="fz-bb">아주작은버튼</h3>
+		<div class="mb30">
+			<a href="#none" class="ns-btn ty01 ss cp">버튼 TYPE 1</a>
+			<a href="#none" class="ns-btn ty02 ss cp">버튼 TYPE 2</a>
+			<a href="#none" class="ns-btn ty03 ss cp">버튼 TYPE 3</a>
+			<a href="#none" class="ns-btn ty04 ss cp">버튼 TYPE 4</a>
+			<a href="#none" class="ns-btn ty05 ss cp">버튼 TYPE 5</a>
+			<a href="#none" class="ns-btn ty06 ss cp">버튼 TYPE 6</a>
+			<a href="#none" class="ns-btn ty07 ss cp">버튼 TYPE 7</a>
+			<a href="#none" class="ns-btn ty08 ss cp">버튼 TYPE 8</a>
+			<a href="#none" class="ns-btn ty09 ss cp">버튼 TYPE 9</a>
+		</div>
+		<h3 class="fz-bb">큰 버튼</h3>
+		<div class="mb30">
+			<a href="#none" class="ns-btn ty01 b cp">버튼 TYPE 1</a>
+			<a href="#none" class="ns-btn ty02 b cp">버튼 TYPE 2</a>
+			<a href="#none" class="ns-btn ty03 b cp">버튼 TYPE 3</a>
+			<a href="#none" class="ns-btn ty04 b cp">버튼 TYPE 4</a>
+			<a href="#none" class="ns-btn ty05 b cp">버튼 TYPE 5</a>
+			<a href="#none" class="ns-btn ty06 b cp">버튼 TYPE 6</a>
+			<a href="#none" class="ns-btn ty07 b cp">버튼 TYPE 7</a>
+			<a href="#none" class="ns-btn ty08 b cp">버튼 TYPE 8</a>
+			<a href="#none" class="ns-btn ty09 b cp">버튼 TYPE 9</a>
+		</div>
+		<h3 class="fz-bb">기타 버튼</h3>
+		<div class="tr-l mb30">
+			<span class="onoff cp">
+				<input type="checkbox" name="" id="ckon01">
+				<label for="ckon01">
+					<span>사용</span>
+					<span>미사용</span>
+				</label>
+			</span>
+			<span class="ns-label ty01 cp">라벨</span>
+			<span class="ns-label ty02 cp">할인쿠폰</span>
+			<span class="ns-label ty03 cp">인기상품</span>
+			<span class="ns-label ty04 cp">라벨</span>
+			<span class="ns-label ty05 cp">라벨</span>
+			<span class="ns-label ty06 cp">라벨</span>
+			<span class="ns-label ty07 cp">라벨</span>
+			<span class="ns-label ty08 cp">라벨</span>
+			<span class="ns-label ty09 cp">라벨</span>
+		</div>
+
+		<h3 class="fz-bb">아이콘 사용 예시</h3>
+		<p class="fz-b mb10">더 많은 아이콘 정보 : <a href="https://fontawesome.com/icons?d=listing&amp;m=free" target="_blank">https://fontawesome.com/icons?d=listing&amp;m=free</a></p>
+		<p class="fz-n mb10">아이콘 class규직 : ① fas fa-[사이트에있는클래스명] ② far fa-[사이트에있는클래스명]</p>
+		<span class="desc">fas = 배경색이있는 아이콘  far = 배경없이 라인만있는 아이콘</span>
+		<span class="desc">아이콘사이즈와 색상은는 font크기와 color로 조절가능</span>
+		<div class="mb50">
+			<div class="mt30 mb30">
+				<i class="fas fa-grin-tongue-squint cp fz-tt"></i>
+				<i class="fas fa-folder-plus cp fz-tt tx01"></i>
+				<i class="fas fa-folder-open cp fz-tt tx02"></i>
+				<i class="fas fa-coffee cp fz-tt tx03"></i>
+				<i class="fab fa-instagram cp fz-tt tx04"></i>
+				<i class="fas fa-link cp fz-tt tx05"></i>
+				<i class="fas fa-map-marker-alt cp fz-tt tx06"></i>
+				<i class="fas fa-mobile-alt cp fz-tt tx07"></i>
+				<i class="far fa-play-circle cp fz-tt tx02"></i>
+				<i class="fas fa-redo-alt cp fz-tt tx03"></i>
+			</div>
+			<div>
+				<a href="#none" class="ns-btn ty01 cp"><i class="far fa-comments cp"></i> 고객센터</a>
+				<a href="#none" class="ns-btn ty03 cp"><i class="fas fa-file-upload cp"></i> 업로드</a>
+				<a href="#none" class="ns-btn ty07 s cp"><i class="far fa-folder cp fz-t"></i></a>
+				<a href="#none" class="ns-btn ty02 s cp"><i class="far fa-comments cp fz-t"></i></a>
+				<a href="#none" class="ns-btn ty02 s cp"><i class="fas fa-comment cp fz-t"></i></a>
+				<a href="#none" class="ns-btn ty02 s cp"><i class="fas fa-cog fz-t"></i></a>
+			</div>
+		</div>
+
+		<h3 class="fz-bb">분할레이아웃 (소스복사시 라인은사라짐)</h3>
+		<div class="row cp">
+			<div class="u6 mo-u12 tr-l">
+				좌측정렬컨텐츠삽입
+			</div>
+			<div class="u6 mo-u12 tr-r mo-tr-l">
+				우측정렬컨텐츠삽입
+			</div>
+		</div>
+
+		<div class="pb50"></div>
+		<div class="row cp">
+			<div class="u6 mo-u12 tr-c">
+				2등분 가운데 정렬
+			</div>
+			<div class="u6 mo-u12 tr-c">
+				2등분 가운데 정렬
+			</div>
+		</div>
+
+		<div class="pb50"></div>
+
+		<div class="row cp">
+			<div class="u4 mo-u12 tr-c">
+				3등분 가운데 정렬
+			</div>
+			<div class="u4 mo-u12 tr-c">
+				3등분 가운데 정렬
+			</div>
+			<div class="u4 mo-u12 tr-c">
+				3등분 가운데 정렬
+			</div>
+		</div>
+
+		<div class="pb50"></div>
+
+		<div class="tr-l cp">
+			기본좌측정렬
+		</div>
+
+		<div class="pb50"></div>
+
+		<div class="tr-c cp">
+			기본중앙정렬
+		</div>
+
+		<div class="pb50"></div>
+
+		<div class="tr-r cp">
+			기본우측정렬
+		</div>
+
+		<div class="pb50"></div>
+
+	</div>
+</div>
+
+
+<!-- 소스카피 편의 기능추가 { -->
+<div class="fxoneclick ns-wrap">
+	<h3 class="fz-n">원클릭<br>복사기능</h3>
+	<span class="onoff">
+		<input type="checkbox" name="" id="ckon02">
+		<label for="ckon02">
+			<span>사용</span>
+			<span>미사용</span>
+		</label>
+	</span>
+</div>
+<!-- } 소스카피 편의 기능추가 -->
+
+
+<!-- 소스카피 기능추가 { -->
+<script type="text/javascript" src="sourcecopy.js"></script>
+<!-- } 소스카피 기능추가 -->
+
+
+
+</body>
+</html>
